@@ -1,4 +1,3 @@
-```typescript
 import { NextResponse } from 'next/server';
 import { supabaseAdmin } from '@/lib/db/supabase';
 import { randomBytes } from 'crypto';
@@ -70,4 +69,3 @@ export async function GET(req: Request) {
   }
 }
 
-```
