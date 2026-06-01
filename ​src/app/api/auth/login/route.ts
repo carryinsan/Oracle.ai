@@ -1,4 +1,3 @@
-```typescript
 import { NextResponse } from 'next/server';
 import { supabase, supabaseAdmin } from '@/lib/db/supabase';
 import { signToken } from '@/lib/security/jwt';
@@ -62,4 +61,4 @@ export async function POST(req: Request) {
   }
 }
 
-```
+
