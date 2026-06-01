@@ -1,4 +1,3 @@
-```typescript
 import { NextResponse } from 'next/server';
 import { supabase } from '@/lib/db/supabase';
 
@@ -38,4 +37,4 @@ export async function POST(req: Request) {
   }
 }
 
-```
+
