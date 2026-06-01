@@ -1,4 +1,3 @@
-```typescript
 import { NextResponse } from 'next/server';
 import { supabaseAdmin } from '@/lib/db/supabase';
 
@@ -58,4 +57,4 @@ export async function GET(req: Request) {
   }
 }
 
-```
+
