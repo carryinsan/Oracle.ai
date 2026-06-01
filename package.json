@@ -1,5 +1,6 @@
+cat > package.json <<'EOF'
 {
-  "name":"oracle-ai",
+  "name": "oracle-platform",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -39,3 +40,4 @@
     "eslint-config-next": "14.2.3"
   }
 }
+EOF
