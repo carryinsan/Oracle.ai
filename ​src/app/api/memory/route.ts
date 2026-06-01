@@ -1,4 +1,3 @@
-```typescript
 import { NextResponse } from 'next/server';
 import { supabaseAdmin } from '@/lib/db/supabase';
 import { generateEmbedding, retrieveRelevantMemories } from '@/services/memory/retrievalEngine';
@@ -103,4 +102,4 @@ export async function GET(req: Request) {
   }
 }
 
-```
+
