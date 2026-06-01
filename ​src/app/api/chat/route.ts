@@ -1,4 +1,3 @@
-```typescript
 import { NextResponse } from 'next/server';
 import { supabaseAdmin } from '@/lib/db/supabase';
 import { checkRateLimit, appendShortTermMemory } from '@/lib/redis/upstash';
@@ -153,4 +152,3 @@ export async function POST(req: Request) {
   }
 }
 
-```
