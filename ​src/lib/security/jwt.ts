@@ -1,4 +1,3 @@
-```typescript
 import { SignJWT, jwtVerify } from 'jose';
 import { SubscriptionTier } from '@/types';
 
@@ -35,4 +34,4 @@ export async function verifyToken(token: string): Promise<OracleJwtPayload | nul
   }
 }
 
-```
+
